@@ -1,0 +1,60 @@
+---
+// src/pages/lugares.astro
+
+// 1. Importas tu archivo CSS externo para que Astro lo procese y optimice
+import '../styles/global.css';
+---
+
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta
+      name="description"
+      content="Descubre lugares para disfrutar la comida típica de El Salvador y cómo llegar."
+    />
+    <title>Lugares · Sabores de Cuscatlán</title>
+    
+    <!-- Tipografías de Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,800;1,9..144,600&family=Nunito+Sans:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="#/" aria-label="Sabores de Cuscatlán, inicio">
+        <svg viewBox="0 0 32 32" aria-hidden="true" width="24" height="24">
+          <path d="M2 28 14 6l5 8 4-5 7 19z" fill="currentColor" />
+        </svg>
+        Sabores de Cuscatlán
+      </a>
+      <nav aria-label="Navegación principal">
+        <a href="#/">Lugares</a>
+      </nav>
+    </header>
+
+    <!-- Aquí es donde el archivo JavaScript inyectará todo el contenido dinámicamente -->
+    <main id="app"></main>
+
+    <footer>
+      Explora lugares para disfrutar los sabores típicos de El Salvador.
+    </footer>
+
+    <!-- 
+      2. Aquí cargas tu script. 
+      Puedes guardarlo en 'src/scripts/lugares.js' e importarlo así:
+    -->
+    <script src="../data/lugares.js"></script>
+    
+    <!-- 
+      (O alternativa: si prefieres tener todo el código JS directamente dentro 
+      de la página, puedes borrar la línea de arriba y pegar todo tu código 
+      de JavaScript aquí adentro entre las etiquetas <script> </script>).
+    -->
+
+  </body>
+</html>

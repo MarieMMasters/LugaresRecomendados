@@ -1,0 +1,359 @@
+/* src/styles/styles.css */
+
+body {
+  background: linear-gradient(rgba(25, 174, 201, 0.92), rgba(218, 210, 210, 0.062)), 
+            url('/backgrounds/fondo_p_p.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  
+  color: #262626;
+  font-family: 'Nunito Sans', system-ui, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background: white;
+  border-bottom: 1px solid #fde68a;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+}
+
+.brand {
+  font-family: 'Fraunces', serif;
+  font-weight: 800;
+  font-size: 1.25rem;
+  color: #78350f;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.brand svg {
+  width: 24px;
+  height: 24px;
+  color: #d97706;
+}
+
+nav a {
+  color: #b45309;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.hero {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.hero h1 {
+  font-family: 'Fraunces', serif;
+  color: #78350f;
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.intro p {
+  color: #525252;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.pick h2 {
+  font-family: 'Fraunces', serif;
+  color: #78350f;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.legend {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin-top: 1rem;
+}
+
+.region-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 1rem;
+  box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  transition: transform 0.2s, box-shadow 0.2s;
+  border: 1px solid #fef3c7;
+}
+
+.region-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.1);
+}
+
+.dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  margin-top: 6px;
+  flex-shrink: 0;
+}
+
+.region-card h3 {
+  margin: 0 0 0.25rem 0;
+  color: #78350f;
+  font-size: 1.2rem;
+}
+
+.region-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+/* Vista de Región y Artículos */
+.back {
+  display: inline-block;
+  color: #b45309;
+  text-decoration: none;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.rname {
+  font-family: 'Fraunces', serif;
+  color: #78350f;
+  font-size: 3.90rem;
+  margin: 0 0 0.5rem 0;
+}
+
+.rblurb {
+  color: #ffffff;
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+.sec {
+  font-family: 'Fraunces', serif;
+  color: #92400e;
+  font-size: 1.4rem;
+  border-bottom: 2px solid #fde68a;
+  padding-bottom: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.places-list {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+
+.item {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
+  display: grid;
+  grid-template-columns: 1.2fr 1fr;
+  gap: 2rem;
+  padding: 2rem;
+  border: 1px solid #fef3c7;
+}
+
+@media (max-width: 768px) {
+  .item {
+    grid-template-columns: 1fr;
+  }
+}
+
+.place-info h3 {
+  font-family: 'Fraunces', serif;
+  color: #78350f;
+  margin: 0 0 0.75rem 0;
+  font-size: 1.5rem;
+}
+
+.d {
+  color: #404040;
+  line-height: 1.5;
+  margin-bottom: 1rem;
+}
+
+.s {
+  font-size: 0.85rem;
+  color: #d97706;
+  margin-bottom: 1rem;
+}
+
+.reviews a {
+  color: #b45309;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.how {
+  background: #fffbeb;
+  padding: 1rem;
+  border-radius: 0.75rem;
+  border: 1px solid #fde68a;
+  margin-top: 1.25rem;
+}
+
+.how h4 {
+  margin: 0 0 0.5rem 0;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  color: #92400e;
+}
+
+.bus {
+  font-size: 0.85rem;
+  color: #404040;
+  line-height: 1.4;
+  margin-bottom: 1rem;
+}
+
+.maps {
+  display: flex;
+  gap: 0.75rem;
+}
+
+.map-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: white;
+}
+
+.gmaps { background: #ea580c; }
+.waze { background: #0ea5e9; }
+
+/* Galería */
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.gallery-main {
+  width: 100%;
+  height: 320px;
+  border-radius: 0.75rem;
+  overflow: hidden;
+  background: #e5e5e5;
+}
+
+.gallery-main img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.photo-placeholder {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #737373;
+  font-size: 0.9rem;
+}
+
+.thumbnails {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  padding-bottom: 0.25rem;
+}
+
+.thumbnail {
+  width: 55px;
+  height: 55px;
+  border-radius: 0.5rem;
+  border: 2px solid transparent;
+  padding: 0;
+  cursor: pointer;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: none;
+}
+
+.thumbnail:focus, .thumbnail:hover {
+  border-color: #d97706;
+}
+
+.thumbnail img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+footer {
+  text-align: center;
+  padding: 2rem;
+  color: #78350f;
+  font-size: 0.9rem;
+  border-top: 1px solid #fde68a;
+  background: white;
+  margin-top: 4rem;
+}
+
+/*Botones de redes sociales*/
+.social-links {
+  display: flex;
+  gap: 0.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.social-btn {
+  font-size: 0.75rem;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  text-decoration: none;
+  font-weight: 600;
+  color: white;
+}
+
+.social-btn.instagram {
+  background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af, #515bd4);
+}
+
+.social-btn.facebook {
+  background: #1877f2;
+}
+
+.map {
+  width: 100%;
+  max-width: 600px;
+  display: block;
+  margin: 0 auto 2rem auto;
+}
+
+.intro-text {
+  background: rgba(250, 249, 249, 0.6);
+  border-radius: 0.75rem;
+  padding: 1rem;
+  color: #e4dede;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto;
+}
