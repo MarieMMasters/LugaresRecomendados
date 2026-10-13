@@ -1,3 +1,36 @@
+/**
+ * @typedef {Object} SocialLinks
+ * @property {string} [facebook]
+ * @property {string} [instagram]
+ */
+
+/**
+ * @typedef {Object} Place
+ * @property {string} name
+ * @property {string} description
+ * @property {SocialLinks} [social]
+ * @property {string} [note]
+ * @property {string} query
+ * @property {string} [coordinates]
+ * @property {string} [busDirections]
+ * @property {string[]} [images]
+ */
+
+/**
+ * @typedef {Object} RegionData
+ * @property {string} description
+ * @property {Place[]} places
+ */
+
+/**
+ * @typedef {Object} RegionMeta
+ * @property {string} name
+ * @property {string} color
+ * @property {string} departments
+ */
+
+/** @type {Record<string, RegionMeta>} */
+
 const REGIONES = {
   occidente: {
     name: "Occidente",
@@ -275,8 +308,8 @@ const DATA = {
         },
         coordinates: "13.493406604160059, -89.42521283197776",
         query: "Tomadulu, La Libertad",
-        busDirections: `Opción 1: Desde San Salvador: Dirígete al Terminal de Buses de Oriente (en el Boulevard del Ejército). Toma la Ruta 125 con dirección a Chalatenango o Nueva Concepción. Pídele al motorista que te baje en el desvío hacia El Paraíso / Embalse Cerrón Grande o en la zona cercana al Cantón Santa Bárbara sobre la carretera Longitudinal del Norte, donde podrás abordar un transporte local o mototaxi hacia el restaurante.
-Opción 2: Desde Sonsonate: Dirígete a la terminal de Sonsonate y toma la Ruta 205 hacia la Terminal de Occidente en San Salvador. Desde allí, cruza hacia la zona del Boulevard del Ejército (Terminal de Oriente) para abordar la Ruta 125 hacia Chalatenango y bájate en el desvío rumbo a El Paraíso.`,
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete al Terminal de Buses de Oriente (en el Boulevard del Ejército). Toma la Ruta 125 con dirección a Chalatenango o Nueva Concepción. Pídele al motorista que te baje en el desvío hacia El Paraíso / Embalse Cerrón Grande o en la zona cercana al Cantón Santa Bárbara sobre la carretera Longitudinal del Norte, donde podrás abordar un transporte local o mototaxi hacia el restaurante.<br>
+                        <b>Opción 2:</b> Desde Sonsonate: Dirígete a la terminal de Sonsonate y toma la Ruta 205 hacia la Terminal de Occidente en San Salvador. Desde allí, cruza hacia la zona del Boulevard del Ejército (Terminal de Oriente) para abordar la Ruta 125 hacia Chalatenango y bájate en el desvío rumbo a El Paraíso.`,
         images: [
           "CENTRO/Tomadulu/imagen1.jpg",
           "CENTRO/Tomadulu/imagen2.jpg",
@@ -422,6 +455,102 @@ Opción 2: Desde Sonsonate: Dirígete a la terminal de Sonsonate y toma la Ruta 
         ]
       },
 
+      {
+        name: "Moris Rooftop",
+        description:"Excelente restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        social: {
+          facebook: "https://www.facebook.com/MorisRooftop",
+          instagram: "https://www.instagram.com/morisrooftop/?hl=es-la",
+        },
+        coordinates: "13.696618963036512, -89.19076341534262",
+        query: "Moris Rooftop, San Salvador, Centro Histórico",
+        busDirections: `<b>Opción 1:</b> En San Salvador (Desde zonas residenciales o terminales): Toma cualquier bus o microbús urbano que cruce por el Centro Histórico de San Salvador (como las rutas que transitan cerca de la Catedral Metropolitana, el Teatro Nacional o la Plaza Cívica). Bájate en las inmediaciones del Edificio Veiga o camina un par de cuadras hacia la 6ª Calle Oriente y 2ª Avenida Sur.<br>
+                        <b>Opción 2:</b> Desde Santa Tecla o Antiguo Cuscatlán: Dirígete a la parada principal sobre la Carretera Panamericana o el bulevar principal y toma un autobús o microbús (como la Ruta 42 o la Ruta 101) que te lleve directo al centro de San Salvador. Bájate cerca de la zona comercial del centro histórico y camina hacia el Edificio Veiga para ingresar al rooftop.`,
+        images: [
+          "CENTRO/Moris Rooftop/imagen1.jpg",
+          "CENTRO/Moris Rooftop/imagen2.jpg",
+          "CENTRO/Moris Rooftop/imagen3.jpg",
+          "CENTRO/Moris Rooftop/imagen4.jpg",
+         ]
+      },
+
+      {
+        name: "El Atico",
+        description:"Restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        social: {
+          facebook: "https://www.facebook.com/elaticovolcan",
+          instagram: "https://www.instagram.com/elaticoesv/?hl=es-la",
+        },
+        coordinates: "13.696618963036512, -89.19076341534262",
+        query: "El Atico, San Salvador, Boqueron, Volcan",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la zona de la Plaza El Salvador del Mundo o toma un bus o microbús que te lleve hacia Santa Tecla (como la Ruta 42 o Ruta 101). Desde Santa Tecla, puedes tomar transporte local, un microbús hacia el Boquerón o un servicio de taxi/transporte compartido que sube directamente por la Calle al Boquerón hasta la altura del kilómetro 18.5 (Plaza Boquerón).<br>
+                        <b>Opción 2:</b> Desde Santa Tecla (La Libertad): Dirígete al parque central de Santa Tecla o a la zona norte de la ciudad, desde donde inician los recorridos hacia el volcán. Toma un transporte local autorizado o un microbús que suba por la ruta turística del Boquerón y pídele al conductor que te baje en el sector de la Plaza Boquerón.`,
+        images: [
+          "CENTRO/El Atico/imagen1.jpg",  
+          "CENTRO/El Atico/imagen2.jpg",
+          "CENTRO/El Atico/imagen3.jpg",
+          "CENTRO/El Atico/imagen4.jpg",
+          "CENTRO/El Atico/imagen5.jpg"
+        ]
+      },
+
+      {
+        name: "La Casona Cafe y Tipicos",
+        description:"Restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        social: {
+          facebook: "https://www.facebook.com/profile.php?id=100063968706730",
+          instagram: "https://www.instagram.com/lacasona_cafeytipicos/?hl=es-la",
+        },
+        coordinates: "13.617403549576176, -89.04923375767129",
+        query: "La Casona Cafe y Tipicos, San Francisco, Chinameca",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la zona del Parque Infantil o al sector oriental de la capital para tomar un autobús o microbús que circule hacia el oriente (por la Carretera Panamericana o con rumbo hacia Cojutepeque / San Vicente), o bien conecta hacia los buses que suben hacia la Carretera Panorámica (como los que van hacia San Francisco Chinameca). Pídele al motorista que te baje exactamente en el kilómetro 25 sobre la Panorámica.<br>
+                        <b>Opción 2:</b> Desde Ilopango / Santo Tomás: Toma el transporte local que conecta la zona suroriental con la Carretera Panorámica, la cual atraviesa directamente San Francisco Chinameca y pasa frente al sector del restaurante.`,
+        images: [
+          "CENTRO/La Casona Cafe y Tipicos/imagen1.jpg",  
+          "CENTRO/La Casona Cafe y Tipicos/imagen2.jpg",
+          "CENTRO/La Casona Cafe y Tipicos/imagen3.jpg",
+          "CENTRO/La Casona Cafe y Tipicos/imagen4.jpg",
+          "CENTRO/La Casona Cafe y Tipicos/imagen5.jpg"
+        ]
+      },
+
+      {
+        name: "Restaurante y mirador los llanitos",
+        description:"Restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        social: { 
+          facebook: "https://www.facebook.com/Restauranteymiradorlosllanitos/?locale=es_LA",  
+          instagram: "https://www.instagram.com/mirador_los_llanitos/?hl=es",
+        },
+        coordinates: "13.62223681902225, -89.05642802513651",
+        query: "Restaurante y mirador los llanitos, San Francisco, Chinameca",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la zona del Parque Infantil o al sector oriental de la capital para tomar un autobús o microbús que circule hacia el oriente (por la Carretera Panamericana o con rumbo hacia Cojutepeque / San Vicente), o bien conecta hacia los buses que suben hacia la Carretera Panorámica (como los que van hacia San Francisco Chinameca). Pídele al motorista que te baje exactamente en el kilómetro 25 sobre la Panorámica.<br>
+                        <b>Opción 2:</b> Desde Ilopango / Santo Tomás: Toma el transporte local que conecta la zona suroriental con la Carretera Panorámica, la cual atraviesa directamente San Francisco Chinameca y pasa frente al sector del restaurante.`,
+        images: [
+          "CENTRO/Restaurante y mirador los llanitos/imagen1.jpg",
+          "CENTRO/Restaurante y mirador los llanitos/imagen2.jpg",
+          "CENTRO/Restaurante y mirador los llanitos/imagen3.jpg",
+          "CENTRO/Restaurante y mirador los llanitos/imagen4.jpg",
+          "CENTRO/Restaurante y mirador los llanitos/imagen5.jpg"
+        ]
+      },
+
+      {
+        name: "La Bodeguita del Cerdito",
+        description:"Restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        social: {
+          facebook: "https://www.facebook.com/bodeguitadelcerdito.ilobasco/",
+          instagram: "https://www.instagram.com/labodeguita.ilobasco/",
+        },
+        coordinates: "13.617403549576176, -89.04923375767129",
+        query: "La Bodeguita del Cerdito, San Francisco, Chinameca",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la zona del Parque Infantil o al oriente de la capital para tomar un autobús o microbús que se dirija hacia la Carretera Panorámica o rumbo a San Francisco Chinameca (pasando por zonas como Santo Tomás o Santiago Nonualco según la ruta). Pídele al motorista que te baje específicamente en el kilómetro 24, frente al acceso del mirador y restaurante.<br>
+                        <b>Opción 2:</b> Desde Santo Tomás / Ilopango: Toma el transporte colectivo que conecta la zona sur del departamento con la Carretera Panorámica, la cual cruza directamente por San Francisco Chinameca hasta la zona del Caserío La Montaña.`,
+        images: [
+          "CENTRO/La Bodeguita del Cerdito/imagen1.jpg",
+          "CENTRO/La Bodeguita del Cerdito/imagen2.jpg",
+          "CENTRO/La Bodeguita del Cerdito/imagen3.jpg",     
+        ] 
+      },
     ],
   },
   oriente: {
@@ -443,6 +572,9 @@ Opción 2: Desde Sonsonate: Dirígete a la terminal de Sonsonate y toma la Ruta 
         query: "Perquín Morazán",
         IMAGE_DIRECTORY: "",
       },
+      {
+        
+      }
     ],
   },
 };
