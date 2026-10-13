@@ -349,17 +349,79 @@ Opción 2: Desde Sonsonate: Dirígete a la terminal de Sonsonate y toma la Ruta 
         name: "La Cuadra",
         description: "Maravillosa vista al lago",
         social: {
-          facebook: "https://www.facebook.com/lacuadra.2021"
+          facebook: "https://www.facebook.com/lacuadra.2021",
         },
         coordinates: "14.081891786756202, -89.02767065582177",
-        query: "La Caudra, Chalatenango, Santa Rita",
+        query: "La Cuadra, Chalatenango, Santa Rita",
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma la Ruta 125 con dirección a Chalatenango. Pídele al motorista que te baje sobre la carretera Troncal del Norte a la altura del municipio de Santa Rita (o en el desvío hacia El Tronconal), desde donde puedes tomar un mototaxi o transporte local directo al restaurante.<br>
                         <b>Opción 2:</b> Desde Nueva Concepción: Dirígete a la zona de abordaje y toma un bus o microbús que circule por la Carretera Troncal del Norte con dirección hacia el sur (hacia San Salvador / Chalatenango) y bájate en la zona de Santa Rita para conectar con el transporte local.`,
-        image: [
-          "CENTRO"
-        ]
-        
+        images: [
+          "CENTRO/La Cuadra/imagen1.jpg",
+          "CENTRO/La Cuadra/imagen2.jpg",
+          "CENTRO/La Cuadra/imagen3.jpg",
+          "CENTRO/La Cuadra/imagen4.jpg",
+          "CENTRO/La Cuadra/imagen5.jpg"
+        ],
       },
+
+      {
+        name: "El Rincon de Annie",
+        description: "Hermoso restaurante de 2 plantas",
+        social: {
+          facebook:"https://www.facebook.com/elrincondeannie05",
+          instagram: "https://www.instagram.com/rincondannie/?hl=es-la",
+        },
+        coordinates: "13.648757963052237, -89.2659548",
+        query: "El Rinco de Annie, Nuevo Cuscatlan",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la zona del Parque Infantil o al Bolevar de los Próceres / Carretera al Puerto de La Libertad para tomar un bus o microbús que conecte hacia Antiguo Cuscatlán o Nuevo Cuscatlán (como los microbuses de la Ruta 42 o rutas locales que suben desde el centro comercial Las Cascadas / Merliot). Una vez en el centro de Nuevo Cuscatlán, el local está ubicado cerca de la 3ª Calle Poniente.<br>
+                        <b>Opción 2:</b> Desde Santa Tecla (La Libertad): Dirígete al centro de Santa Tecla (cerca del mercado municipal o parques principales) y toma los microbuses o buses de la Ruta 42-A o microbuses locales que realizan el viaje directo hacia el casco urbano de Nuevo Cuscatlán.`,
+        images: [
+          "CENTRO/El Rincon de Annie/imagen1.jpg",
+          "CENTRO/El Rincon de Annie/imagen2.jpg",
+          "CENTRO/El Rincon de Annie/imagen3.jpg",
+          "CENTRO/El Rincon de Annie/imagen4.jpg",
+          "CENTRO/El Rincon de Annie/imagen5.jpg",
+        ],
+
+      },
+
+      {
+        name: "El Comal Santa Elena",
+        description: "Hermoso lugar",
+        social: {
+          facebook: "https://www.facebook.com/elcomaltipicos",
+          instagram: "https://www.instagram.com/elcomalsantaelena/?hl=es-la",
+        },
+        coordinates: "13.652500675008119, -89.26378858964647",
+        query: "El comal Santa Elena, Nuevo Cuscatlan",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la zona de Santa Elena / redondel de las Naciones Unidas o toma un bus/microbús hacia Antiguo Cuscatlán o Santa Tecla (como la Ruta 42 o rutas que conectan con el bulevar Orden de Malta). Desde allí, puedes tomar un transporte local, microbús o taxi que transite hacia el Bulevar Cuscatlán en Plaza Paradiso (Nuevo Cuscatlán).<br>
+                        <b>Opción 2:</b> Desde Santa Tecla (La Libertad): Dirígete al centro o a las zonas de conexión comercial (como redondel El Platillo o Multiplaza) y toma un microbús o bus que circule hacia la zona de Santa Elena y Nuevo Cuscatlán.`,
+        images: [
+          "CENTRO/El Comal Santa Elena/imagen1.jpg",
+          "CENTRO/El Comal Santa Elena/imagen2.jpg",
+          "CENTRO/El Comal Santa Elena/imagen3.jpg"
+        ],
+      },
+      
+      {
+        name: "Casa Castilla",
+        description: "Hermoso lugar",
+        social: {
+          facebook: "https://www.facebook.com/ProductosReinita/?locale=es_LA",
+          instagram: "https://www.instagram.com/casacastilla.sv/?hl=es-la"
+        },
+        coordinates: "13.672000133127405, -89.23897990498878",
+        query: "Casa Castilla, Cuscatlan",
+        busDirections: `<b>Opción 1:</b> En San Salvador (Desde el centro o zonas aledañas): Toma cualquier bus o microbús urbano que transite cerca de la zona centro o los bulevares principales (como rutas que conectan hacia las cercanías de la Calle Cuscatlán). Puedes bajarte a pocos metros y caminar directamente al establecimiento.<br>
+                        <b>Opción 2:</b> Desde Santa Tecla / Antiguo Cuscatlán: Dirígete a la Carretera Panamericana o vías principales que conectan con San Salvador, toma un autobús interurbano hacia la capital y bájate en el sector céntrico adecuado para transbordar a un microbús local que te acerque a la Calle Cuscatlán Oriente.`,
+        images:[
+          "CENTRO/Casa Castilla/imagen1.jpg",
+          "CENTRO/Casa Castilla/imagen2.jpg",
+          "CENTRO/Casa Castilla/imagen3.jpg",
+          "CENTRO/Casa Castilla/imagen4.jpg"
+        ]
+      },
+
     ],
   },
   oriente: {
@@ -370,7 +432,7 @@ Opción 2: Desde Sonsonate: Dirígete a la terminal de Sonsonate y toma la Ruta 
         name: "Mariscos en Playa El Cuco",
         description:
           "Ranchos frente al mar con ceviche, sopa de mariscos, pescado frito y cocteles de concha.",
-        note: "Redes: cada rancho tiene su propia página", 
+        note: "Redes: cada rancho tiene su propia página",
         query: "Playa El Cuco San Miguel",
       },
       {
@@ -379,7 +441,7 @@ Opción 2: Desde Sonsonate: Dirígete a la terminal de Sonsonate y toma la Ruta 
           "Pueblo de montaña con comedores de comida casera, atol y tamales.",
         note: "Redes: busca Perquín turismo",
         query: "Perquín Morazán",
-        IMAGE_DIRECTORY:""
+        IMAGE_DIRECTORY: "",
       },
     ],
   },
