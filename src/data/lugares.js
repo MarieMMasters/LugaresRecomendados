@@ -558,23 +558,149 @@ const DATA = {
       "Golfo, playas y montañas. Mariscos frescos, sopas contundentes y fiestas que duran días.",
     places: [
       {
-        name: "Mariscos en Playa El Cuco",
+        name: "Finca San Rafael",
         description:
-          "Ranchos frente al mar con ceviche, sopa de mariscos, pescado frito y cocteles de concha.",
-        note: "Redes: cada rancho tiene su propia página",
-        query: "Playa El Cuco San Miguel",
+          "Hermoso restaurante con hermosas vistas, con un mirador incluido y temática rústica.",
+        social: {
+          facebook: "https://www.facebook.com/fincasanrafaelelsalvador/?locale=es_LA",
+          instagram: "https://www.instagram.com/fincasanrafael9/?hl=es",
+        },
+        coordinates: "13.51151279440854, -88.48970442698605",
+        query: "Finca San Rafael, Usulután, Alegría",
+        busDirections:`<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 302 con dirección a Usulután o Berlín. Pídele al motorista que te baje en el Desvío de Alegría (sobre la Carretera del Litoral o Panamericana según la vía de la ruta). Desde el desvío, puedes tomar un microbús o transporte local que sube directamente al casco urbano de Alegría y hacia la zona cafetalera de la finca.<br>
+                       <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús que se dirija hacia el poniente (hacia Usulután o Santiago de María), bajándote en el Desvío de Alegría. Desde ahí, aborda el transporte local que asciende hacia el municipio de Alegría y el sector de la finca.`,
+        images: [
+          "ORIENTE/Finca San Rafael/imagen1.jpg",
+          "ORIENTE/Finca San Rafael/imagen2.jpg",
+          "ORIENTE/Finca San Rafael/imagen3.jpg",
+          "ORIENTE/Finca San Rafael/imagen4.jpg",
+        ],
       },
       {
-        name: "Perquín, Morazán",
+        name: "Restaurante TierraMar",
         description:
-          "Pueblo de montaña con comedores de comida casera, atol y tamales.",
-        note: "Redes: busca Perquín turismo",
-        query: "Perquín Morazán",
-        IMAGE_DIRECTORY: "",
+          "Hermoso restaurante con tintes elegantes y gran variedad de alimentos.",
+        social: {
+          facebook: "https://www.facebook.com/tierramaralegria",
+          instagram: "https://www.instagram.com/tierramaralegria/?hl=es",
+        },
+        coordinates: "13.340571091610945, -88.4772247",
+        query: "Restaurante TierraMar, Usulután, Alegría",
+        images: [
+          "CENTRO/Restaurante TierraMar/imagen1.jpg",
+          "CENTRO/Restaurante TierraMar/imagen2.jpg",
+          "CENTRO/Restaurante TierraMar/imagen3.jpg",
+          "CENTRO/Restaurante TierraMar/imagen4.jpg",
+        ],
       },
       {
-        
-      }
+        name: "Torolomo",
+        description:
+          "Restaurante tipo steak house, con un menú variado que incluye hamburguesas y platillos típicos del asado salvadoreño.",
+        social: {
+          facebook: "https://www.facebook.com/torolomoSV",
+        },
+        coordinates: "13.484687244106246, -88.18090264232869",
+        query: "Torolomo, San Miguel, Barrio San Felipe",
+        images: [
+          "CENTRO/Torolomo/imagen1.jpg",
+          "CENTRO/Torolomo/imagen2.jpg",
+          "CENTRO/Torolomo/imagen3.jpg",
+          "CENTRO/Torolomo/imagen4.jpg",
+        ],
+      },
+      {
+        name: "El Barrilito",
+        description: "Restaurante moderno con variedad de platillos típicos.",
+        social: {
+          facebook: "https://www.facebook.com/elbarrilito.sv",
+        },
+        coordinates: "13.488533883460907, -88.18022533232869",
+        query: "El Barrilito, San Miguel",
+        images: [
+          "CENTRO/El Barrilito/imagen1.jpg",
+          "CENTRO/El Barrilito/imagen2.jpg",
+          "CENTRO/El Barrilito/imagen3.jpg",
+          "CENTRO/El Barrilito/imagen4.jpg",
+        ],
+      },
+      {
+        name: "Cabañas y Mirador El Pericón",
+        description:
+          "Hermoso lugar rodeado de bosque, con piscina, ambiente rural y una gran variedad de platillos comerciales y típicos.",
+        social: {
+          facebook: "https://www.facebook.com/cabanasymiradorelpericon",
+        },
+        coordinates: "13.952369684461946, -88.13204784024003",
+        query: "Cabañas y Mirador El Pericón, Morazán, Arambala",
+        images: [
+          "CENTRO/Cabanas y Mirador El Pericon/imagen1.jpg",
+          "CENTRO/Cabanas y Mirador El Pericon/imagen2.jpg",
+          "CENTRO/Cabanas y Mirador El Pericon/imagen3.jpg",
+          "CENTRO/Cabanas y Mirador El Pericon/imagen4.jpg",
+        ],
+      },
+      {
+        name: "Restaurante La Villa San Francisco",
+        description:
+          "Hermosa y elegante villa con modernas decoraciones y un ambiente sofisticado.",
+        social: {
+          facebook: "https://www.facebook.com/restaurantelavillasanfrancisco",
+        },
+        coordinates: "13.696339839515732, -88.10575027116434",
+        query: "Restaurante La Villa San Francisco, Morazán, San Francisco Gotera",
+        images: [
+          "CENTRO/Restaurante La Villa San Francisco/imagen1.jpg",
+          "CENTRO/Restaurante La Villa San Francisco/imagen2.jpg",
+          "CENTRO/Restaurante La Villa San Francisco/imagen3.jpg",
+          "CENTRO/Restaurante La Villa San Francisco/imagen4.jpg",
+        ],
+      },
+      {
+        name: "Foresto Restaurante",
+        description: "Hermosas vistas y un menú extenso.",
+        social: {
+          facebook: "https://www.facebook.com/forestorestaurante",
+        },
+        coordinates: "13.700000, -88.100000",
+        query: "Foresto Restaurante, Morazán, Jocoaitique",
+        images: [
+          "CENTRO/Foresto Restaurante/imagen1.jpg",
+          "CENTRO/Foresto Restaurante/imagen2.jpg",
+          "CENTRO/Foresto Restaurante/imagen3.jpg",
+          "CENTRO/Foresto Restaurante/imagen4.jpg",
+        ],
+      },
+      {
+        name: "Casa Blanca Restaurant La Unión",
+        description: "Hermosas vistas al mar.",
+        social: {
+          facebook: "https://www.facebook.com/RestaurantCasaBlancaLaunion",
+        },
+        coordinates: "13.337806675503428, -87.83770899630082",
+        query: "Casa Blanca Restaurant La Unión, La Unión, Barrio Concepción",
+        images: [
+          "CENTRO/Casa Blanca Restaurant La Union/imagen1.jpg",
+          "CENTRO/Casa Blanca Restaurant La Union/imagen2.jpg",
+          "CENTRO/Casa Blanca Restaurant La Union/imagen3.jpg",
+          "CENTRO/Casa Blanca Restaurant La Union/imagen4.jpg",
+        ],
+      },
+      {
+        name: "Restaurante La Bahía",
+        description: "Hermosas vistas al mar.",
+        social: {
+          facebook: "https://www.facebook.com/profile.php?id=100064268101878",
+        },
+        coordinates: "13.339309950994743, -87.84174303858146",
+        query: "Restaurante La Bahía, La Unión",
+        images: [
+          "CENTRO/Restaurante La Bahia/imagen1.jpg",
+          "CENTRO/Restaurante La Bahia/imagen2.jpg",
+          "CENTRO/Restaurante La Bahia/imagen3.jpg",
+          "CENTRO/Restaurante La Bahia/imagen4.jpg",
+        ],
+      },
     ],
   },
 };
