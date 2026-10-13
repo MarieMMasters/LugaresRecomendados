@@ -581,11 +581,13 @@ const DATA = {
         description:
           "Hermoso restaurante con tintes elegantes y gran variedad de alimentos.",
         social: {
-          facebook: "https://www.facebook.com/tierramaralegria",
-          instagram: "https://www.instagram.com/tierramaralegria/?hl=es",
+          facebook: "https://www.facebook.com/restaurantetierramar/?locale=es_LA",
+          instagram: "https://www.instagram.com/tierramarsv/?hl=en",
         },
-        coordinates: "13.340571091610945, -88.4772247",
+        coordinates: "13.340675484848955, -88.47710668280591",
         query: "Restaurante TierraMar, Usulután, Alegría",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 302 con dirección a Usulután o Berlín. Pídele al motorista que te baje en el Desvío de Alegría (sobre la carretera principal). Desde ese desvío, aborda un microbús o transporte local que asciende directamente hacia el casco urbano de Alegría, el cual te dejará a pocos pasos del parque central y del restaurante.<br>
+                        <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús que circule hacia el poniente (con rumbo a Usulután o Santiago de María), bajándote en el Desvío de Alegría. Desde ahí, toma el transporte local que sube hacia el pueblo de Alegría.`,
         images: [
           "CENTRO/Restaurante TierraMar/imagen1.jpg",
           "CENTRO/Restaurante TierraMar/imagen2.jpg",
@@ -599,9 +601,12 @@ const DATA = {
           "Restaurante tipo steak house, con un menú variado que incluye hamburguesas y platillos típicos del asado salvadoreño.",
         social: {
           facebook: "https://www.facebook.com/torolomoSV",
+          instagram: "https://www.instagram.com/torolomosv/?hl=en"
         },
         coordinates: "13.484687244106246, -88.18090264232869",
         query: "Torolomo, San Miguel, Barrio San Felipe",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 301 con dirección a San Miguel. Al llegar a la terminal de San Miguel, toma un microbús o bus urbano local que circule hacia la zona del Barrio San Felipe, o un taxi que te lleve directamente al establecimiento.<br>
+                        <b>Opción 2:</b> Desde Usulután: Dirígete a la terminal de buses de Usulután y toma un autobús que se dirija hacia el oriente (San Miguel). Al arribar a la terminal migueleña, aborda el transporte urbano local o un mototaxi/taxi que conecte con el Barrio San Felipe.`,
         images: [
           "CENTRO/Torolomo/imagen1.jpg",
           "CENTRO/Torolomo/imagen2.jpg",
@@ -614,9 +619,12 @@ const DATA = {
         description: "Restaurante moderno con variedad de platillos típicos.",
         social: {
           facebook: "https://www.facebook.com/elbarrilito.sv",
+          instagram: "https://www.instagram.com/elbarrilito.sv/?hl=en"
         },
         coordinates: "13.488533883460907, -88.18022533232869",
         query: "El Barrilito, San Miguel",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 301 hacia San Miguel. Al llegar a la terminal migueleña, toma un microbús urbano, un taxi o camina unas pocas cuadras hacia el sector céntrico de la 5ª Calle Poniente.<br>
+                        <b>Opción 2:</b> Desde Usulután o municipios cercanos: Dirígete a la terminal de buses de tu localidad y toma un autobús que viaje hacia la ciudad de San Miguel. Una vez en la terminal de buses de San Miguel, aborda el transporte urbano local que te acerque directamente al centro y a la zona de la 5ª Calle Poniente`,
         images: [
           "CENTRO/El Barrilito/imagen1.jpg",
           "CENTRO/El Barrilito/imagen2.jpg",
@@ -630,9 +638,12 @@ const DATA = {
           "Hermoso lugar rodeado de bosque, con piscina, ambiente rural y una gran variedad de platillos comerciales y típicos.",
         social: {
           facebook: "https://www.facebook.com/cabanasymiradorelpericon",
+          instagram: "https://www.instagram.com/cabanasymiradorelpericon/?hl=en"
         },
         coordinates: "13.952369684461946, -88.13204784024003",
         query: "Cabañas y Mirador El Pericón, Morazán, Arambala",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 304 con dirección a San Francisco Gotera (Morazán). Al llegar a San Francisco Gotera, trasládate a la terminal local y toma un autobús o microbús que viaje hacia el municipio norteño de Arambala. Desde el casco urbano de Arambala, puedes tomar un transporte local, mototaxi o vehículo 4x4 que suba directamente hacia el sector del mirador y las cabañas.<br>
+                        <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús directo hacia San Francisco Gotera. Una vez en Gotera, aborda la conexión en autobús o microbús hacia Arambala y completa el trayecto final con transporte local de la zona montañosa.`,
         images: [
           "CENTRO/Cabanas y Mirador El Pericon/imagen1.jpg",
           "CENTRO/Cabanas y Mirador El Pericon/imagen2.jpg",
@@ -649,6 +660,8 @@ const DATA = {
         },
         coordinates: "13.696339839515732, -88.10575027116434",
         query: "Restaurante La Villa San Francisco, Morazán, San Francisco Gotera",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 304 directo hacia San Francisco Gotera. Una vez que llegues a la terminal de Gotera, puedes caminar unas pocas cuadras o tomar un mototaxi o taxi local que te lleve directamente sobre la Calle Joaquín Rodezno.<br>
+                        <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús o microbús que viaje hacia San Francisco Gotera. Al arribar a la terminal de destino en Gotera, aborda el transporte urbano local o un mototaxi para llegar al restaurante en cuestión de minutos.`,
         images: [
           "CENTRO/Restaurante La Villa San Francisco/imagen1.jpg",
           "CENTRO/Restaurante La Villa San Francisco/imagen2.jpg",
@@ -661,9 +674,12 @@ const DATA = {
         description: "Hermosas vistas y un menú extenso.",
         social: {
           facebook: "https://www.facebook.com/forestorestaurante",
+          instagram: "https://www.instagram.com/forestorestaurante/"
         },
         coordinates: "13.700000, -88.100000",
         query: "Foresto Restaurante, Morazán, Jocoaitique",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 304 con dirección a San Francisco Gotera. Al llegar a la terminal de Gotera, toma un autobús o microbús de conexión norteña que se dirija hacia el municipio de Jocoaitique. Una vez en el casco urbano, puedes abordar un transporte local o mototaxi para llegar al restaurante.<br>
+                        <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús hacia San Francisco Gotera. Al arribar a Gotera, haz el transbordo correspondiente en el transporte que sube hacia los municipios del norte de Morazán, incluyendo Jocoaitique.`,
         images: [
           "CENTRO/Foresto Restaurante/imagen1.jpg",
           "CENTRO/Foresto Restaurante/imagen2.jpg",
@@ -676,9 +692,12 @@ const DATA = {
         description: "Hermosas vistas al mar.",
         social: {
           facebook: "https://www.facebook.com/RestaurantCasaBlancaLaunion",
+          instagram: "https://www.instagram.com/casablancarestaurant.sv/"
         },
         coordinates: "13.337806675503428, -87.83770899630082",
         query: "Casa Blanca Restaurant La Unión, La Unión, Barrio Concepción",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 304 con dirección a la ciudad de La Unión. Al llegar a la terminal de La Unión, puedes tomar un mototaxi, un taxi o caminar unas pocas cuadras hacia el sector del Barrio Concepción donde se encuentra el restaurante.<br>
+                        <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús o microbús que viaje hacia la ciudad de La Unión. Una vez en el destino final en La Unión, aborda un transporte local rápido (como un mototaxi) para llegar sin complicaciones al Barrio Concepción.`,
         images: [
           "CENTRO/Casa Blanca Restaurant La Union/imagen1.jpg",
           "CENTRO/Casa Blanca Restaurant La Union/imagen2.jpg",
@@ -691,9 +710,12 @@ const DATA = {
         description: "Hermosas vistas al mar.",
         social: {
           facebook: "https://www.facebook.com/profile.php?id=100064268101878",
+          instagram: "https://www.instagram.com/explore/locations/912012172228169/restaurante-la-bahia/?hl=en"
         },
         coordinates: "13.339309950994743, -87.84174303858146",
         query: "Restaurante La Bahía, La Unión",
+        busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 304 con dirección a la ciudad de La Unión. Al llegar a la terminal de La Unión, toma un mototaxi, un taxi o camina hacia la zona costera o céntrica del puerto para llegar al restaurante.<br>
+                        <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús o microbús que viaje hacia la ciudad de La Unión. Una vez en la terminal de destino de La Unión, aborda un transporte local rápido (como un mototaxi) que te acerque directamente al establecimiento frente a la bahía.`,
         images: [
           "CENTRO/Restaurante La Bahia/imagen1.jpg",
           "CENTRO/Restaurante La Bahia/imagen2.jpg",
