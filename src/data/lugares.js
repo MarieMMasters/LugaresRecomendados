@@ -280,7 +280,7 @@ const DATA = {
       {
         name: "Tipicos El Mirador",
         description:
-          "Un restaurante con unas excelentes vistas a varios puntos de la ciudad, al igual a varios volcanes y montañas. Su menu es variado, con platillos tipicos salvadoreños y postres.",
+          "Restaurante de comida típica salvadoreña y pupusas con vistas panorámicas privilegiadas hacia la capital, ideal para tardes de café o cenar al aire libre.",
         social: {
           facebook: "https://www.facebook.com/profile.php?id=100063862963536r",
           instagram: "https://www.instagram.com/tipicoselmirador/?hl=es-la",
@@ -301,7 +301,7 @@ const DATA = {
       {
         name: "Tomadulu",
         description:
-          "Restaurante con un extensa variedad de platillos tipicos y preciosas vistas al mar y cerros adyacentes. Ideal para disfrutar de un ambiente familiar y relajado.",
+          "Un espacio gastronómico y bar de playa con ambiente relajado sobre la costa del Pacífico, perfecto para disfrutar de mariscos, bebidas frías y la brisa marina.",
         social: {
           facebook: "https://www.facebook.com/Tomadulu",
           instagram: "https://www.instagram.com/tomadulusv/?hl=es-la",
@@ -322,7 +322,7 @@ const DATA = {
       {
         name: "La Cocina de de Marina",
         description:
-          "Hermoso restaurante a los bordes del lago,ambientacion rustica en su mas puro estilo, menu variado de comida de la sopa, mariscos y platillos tipicos salvadoreños. Ideal para disfrutar de un ambiente familiar y relajado.",
+          "Restaurante campestre a orillas o cerca del embalse Cerrón Grande, famoso por sus pescados fritos, mariscos frescos y comida casera.",
         social: {
           facebook:
             "https://www.facebook.com/La-Cocina-de-Marina-100063862963536",
@@ -343,7 +343,7 @@ const DATA = {
       {
         name: "Rancho Bambu",
         description:
-          "Un rancho de calidad, cabañas, picinas y hermosas vistas de la naturaleza alrededor. Su menu es variado, con platillos tipicos salvadoreños.",
+          "Un destino turístico y restaurante campestre rodeado de naturaleza y bambuzales, ideal para disfrutar de platillos locales y un día de descanso.",
         social: {
           facebook: "https://www.facebook.com/profile.php?id=100075750405272",
         },
@@ -362,7 +362,7 @@ const DATA = {
       {
         name: "La Teca de Don Napo",
         description:
-          "Hermoso rancho con un menu tipico centrado en mariscos, ambiente fresco y excelente servicio ",
+          "Restaurante especializado en mariscos frescos, pescados preparados al gusto y platillos tradicionales en un ambiente familiar y ameno.",
         social: {
           facebook: "https://www.facebook.com/profile.php?id=100054241580756",
         },
@@ -380,7 +380,7 @@ const DATA = {
 
       {
         name: "La Cuadra",
-        description: "Maravillosa vista al lago",
+        description: "Un ameno restaurante y espacio al aire libre famoso por sus carnes asadas, platillos criollos y ambiente rústico campestre.",
         social: {
           facebook: "https://www.facebook.com/lacuadra.2021",
         },
@@ -399,7 +399,7 @@ const DATA = {
 
       {
         name: "El Rincon de Annie",
-        description: "Hermoso restaurante de 2 plantas",
+        description: "Un acogedor rincón gastronómico y cafetería que combina platillos confortables, desayunos y postres artesanales en un ambiente tranquilo y familiar.",
         social: {
           facebook:"https://www.facebook.com/elrincondeannie05",
           instagram: "https://www.instagram.com/rincondannie/?hl=es-la",
@@ -420,7 +420,7 @@ const DATA = {
 
       {
         name: "El Comal Santa Elena",
-        description: "Hermoso lugar",
+        description: "Especializado en platillos típicos salvadoreños, pupusas y cocina tradicional servidos con el toque hogareño y en un entorno moderno.",
         social: {
           facebook: "https://www.facebook.com/elcomaltipicos",
           instagram: "https://www.instagram.com/elcomalsantaelena/?hl=es-la",
@@ -438,7 +438,7 @@ const DATA = {
       
       {
         name: "Casa Castilla",
-        description: "Hermoso lugar",
+        description: "Un espacio acogedor que destaca por su gastronomía estilo gourmet/casera, ideal para almuerzos ejecutivos, reuniones o eventos privados.",
         social: {
           facebook: "https://www.facebook.com/ProductosReinita/?locale=es_LA",
           instagram: "https://www.instagram.com/casacastilla.sv/?hl=es-la"
@@ -457,7 +457,7 @@ const DATA = {
 
       {
         name: "Moris Rooftop",
-        description:"Excelente restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        description: "Exclusivo bar y restaurante en la azotea del Edificio Veiga que ofrece coctelería de autor y una impresionante vista de 360° a los edificios icónicos del centro.",
         social: {
           facebook: "https://www.facebook.com/MorisRooftop",
           instagram: "https://www.instagram.com/morisrooftop/?hl=es-la",
@@ -476,7 +476,7 @@ const DATA = {
 
       {
         name: "El Atico",
-        description:"Restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        description: "Restaurante y café de montaña rodeado de vegetación, caracterizado por su clima fresco, miradores y un menú ideal para compartir al atardecer.",
         social: {
           facebook: "https://www.facebook.com/elaticovolcan",
           instagram: "https://www.instagram.com/elaticoesv/?hl=es-la",
@@ -496,7 +496,7 @@ const DATA = {
 
       {
         name: "La Casona Cafe y Tipicos",
-        description:"Restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        description: "Pintoresco café sobre la Carretera Panorámica con hermosa vista hacia el Lago de Ilopango, famoso por sus antojitos típicos y café de altura.",
         social: {
           facebook: "https://www.facebook.com/profile.php?id=100063968706730",
           instagram: "https://www.instagram.com/lacasona_cafeytipicos/?hl=es-la",
@@ -516,7 +516,7 @@ const DATA = {
 
       {
         name: "Restaurante y mirador los llanitos",
-        description:"Restaurante con una hermosa vista panoramica de la ciudad, menu variado de comida tipica salvadoreña y bebidas.",
+        description: "Mirador y restaurante familiar que ofrece vistas espectaculares al lago, aire fresco y una amplia variedad de carnes, mariscos y platillos típicos.",
         social: { 
           facebook: "https://www.facebook.com/Restauranteymiradorlosllanitos/?locale=es_LA",  
           instagram: "https://www.instagram.com/mirador_los_llanitos/?hl=es",
@@ -560,7 +560,7 @@ const DATA = {
       {
         name: "Finca San Rafael",
         description:
-          "Hermoso restaurante con hermosas vistas, con un mirador incluido y temática rústica.",
+          "Una pintoresca finca cafetalera que combina naturaleza, senderos, clima fresco de montaña y un café/restaurante con vistas hermosas.",
         social: {
           facebook: "https://www.facebook.com/fincasanrafaelelsalvador/?locale=es_LA",
           instagram: "https://www.instagram.com/fincasanrafael9/?hl=es",
@@ -579,7 +579,7 @@ const DATA = {
       {
         name: "Restaurante TierraMar",
         description:
-          "Hermoso restaurante con tintes elegantes y gran variedad de alimentos.",
+          "Ubicado en pleno corazón del pueblo frente al parque central, ofrece una variada carta de gastronomía local e internacional en un ambiente cálido.",
         social: {
           facebook: "https://www.facebook.com/restaurantetierramar/?locale=es_LA",
           instagram: "https://www.instagram.com/tierramarsv/?hl=en",
@@ -598,7 +598,7 @@ const DATA = {
       {
         name: "Torolomo",
         description:
-          "Restaurante tipo steak house, con un menú variado que incluye hamburguesas y platillos típicos del asado salvadoreño.",
+          "Reconocido restaurante de carnes a la parrilla, cortes finos y gastronomía criolla en una ubicación tradicional de la ciudad oriental.",
         social: {
           facebook: "https://www.facebook.com/torolomoSV",
           instagram: "https://www.instagram.com/torolomosv/?hl=en"
@@ -616,7 +616,7 @@ const DATA = {
       },
       {
         name: "El Barrilito",
-        description: "Restaurante moderno con variedad de platillos típicos.",
+        description: "Un punto de encuentro clásico en el centro de San Miguel para disfrutar de bebidas, botanas, mariscos y comida popular entre amigos.",
         social: {
           facebook: "https://www.facebook.com/elbarrilito.sv",
           instagram: "https://www.instagram.com/elbarrilito.sv/?hl=en"
@@ -635,7 +635,7 @@ const DATA = {
       {
         name: "Cabañas y Mirador El Pericón",
         description:
-          "Hermoso lugar rodeado de bosque, con piscina, ambiente rural y una gran variedad de platillos comerciales y típicos.",
+          "Un destino ecológico y de montaña en la zona alta de Morazán, perfecto para disfrutar de vistas impresionantes, clima helado y comida rústica.",
         social: {
           facebook: "https://www.facebook.com/cabanasymiradorelpericon",
           instagram: "https://www.instagram.com/cabanasymiradorelpericon/?hl=en"
@@ -654,7 +654,7 @@ const DATA = {
       {
         name: "Restaurante La Villa San Francisco",
         description:
-          "Hermosa y elegante villa con modernas decoraciones y un ambiente sofisticado.",
+          "Un restaurante acogedor en la cabecera departamental, conocido por su atención cercana y menú variado de cocina nacional.",
         social: {
           facebook: "https://www.facebook.com/restaurantelavillasanfrancisco",
         },
@@ -671,7 +671,7 @@ const DATA = {
       },
       {
         name: "Foresto Restaurante",
-        description: "Hermosas vistas y un menú extenso.",
+        description: "Espacio gastronómico rodeado del bosque de pino de Morazán, enfocado en platillos gourmet, carnes y una experiencia de contacto directo con la naturaleza.",
         social: {
           facebook: "https://www.facebook.com/forestorestaurante",
           instagram: "https://www.instagram.com/forestorestaurante/"
@@ -689,7 +689,7 @@ const DATA = {
       },
       {
         name: "Casa Blanca Restaurant La Unión",
-        description: "Hermosas vistas al mar.",
+        description: "Elegante y tradicional restaurante en La Unión que ofrece mariscos frescos, carnes y platillos típicos con excelente sazón oriental.",
         social: {
           facebook: "https://www.facebook.com/RestaurantCasaBlancaLaunion",
           instagram: "https://www.instagram.com/casablancarestaurant.sv/"
@@ -707,7 +707,7 @@ const DATA = {
       },
       {
         name: "Restaurante La Bahía",
-        description: "Hermosas vistas al mar.",
+        description: "Ubicado cerca de la zona costera, es el lugar ideal para degustar cócteles de conchas, pescados y mariscadas con vista al Golfo de Fonseca.",
         social: {
           facebook: "https://www.facebook.com/profile.php?id=100064268101878",
           instagram: "https://www.instagram.com/explore/locations/912012172228169/restaurante-la-bahia/?hl=en"
