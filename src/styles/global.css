@@ -1,7 +1,7 @@
 /* src/styles/styles.css */
 
 body {
-  background: linear-gradient(rgba(25, 174, 201, 0.92), rgba(218, 210, 210, 0.062)), 
+  background: linear-gradient(hsla(189, 58%, 79%, 0.92), rgba(37, 35, 35, 0.062)), 
             url('/backgrounds/fondo_p_p.jpg');
   background-size: cover;
   background-position: center;
@@ -167,7 +167,7 @@ main {
 }
 
 .item {
-  background: white;
+  background: #F5F0E4;
   border-radius: 1rem;
   box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);
   display: grid;
@@ -348,10 +348,10 @@ footer {
 }
 
 .intro-text {
-  background: rgba(250, 249, 249, 0.6);
+  background: rgba(223, 220, 220, 0.014);
   border-radius: 0.75rem;
   padding: 1rem;
-  color: #e4dede;
+  color: #1b1b1b;
   font-size: 1.1rem;
   line-height: 1.6;
   max-width: 700px;

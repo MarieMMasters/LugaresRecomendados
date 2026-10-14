@@ -589,10 +589,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 302 con dirección a Usulután o Berlín. Pídele al motorista que te baje en el Desvío de Alegría (sobre la carretera principal). Desde ese desvío, aborda un microbús o transporte local que asciende directamente hacia el casco urbano de Alegría, el cual te dejará a pocos pasos del parque central y del restaurante.<br>
                         <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús que circule hacia el poniente (con rumbo a Usulután o Santiago de María), bajándote en el Desvío de Alegría. Desde ahí, toma el transporte local que sube hacia el pueblo de Alegría.`,
         images: [
-          "CENTRO/Restaurante TierraMar/imagen1.jpg",
-          "CENTRO/Restaurante TierraMar/imagen2.jpg",
-          "CENTRO/Restaurante TierraMar/imagen3.jpg",
-          "CENTRO/Restaurante TierraMar/imagen4.jpg",
+          "ORIENTE/Restaurante TierraMar/imagen1.jpg",
+          "ORIENTE/Restaurante TierraMar/imagen2.jpg",
+          "ORIENTE/Restaurante TierraMar/imagen3.jpg",
+          "ORIENTE/Restaurante TierraMar/imagen4.jpg",
         ],
       },
       {
@@ -608,10 +608,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 301 con dirección a San Miguel. Al llegar a la terminal de San Miguel, toma un microbús o bus urbano local que circule hacia la zona del Barrio San Felipe, o un taxi que te lleve directamente al establecimiento.<br>
                         <b>Opción 2:</b> Desde Usulután: Dirígete a la terminal de buses de Usulután y toma un autobús que se dirija hacia el oriente (San Miguel). Al arribar a la terminal migueleña, aborda el transporte urbano local o un mototaxi/taxi que conecte con el Barrio San Felipe.`,
         images: [
-          "CENTRO/Torolomo/imagen1.jpg",
-          "CENTRO/Torolomo/imagen2.jpg",
-          "CENTRO/Torolomo/imagen3.jpg",
-          "CENTRO/Torolomo/imagen4.jpg",
+          "ORIENTE/Torolomo/imagen1.jpg",
+          "ORIENTE/Torolomo/imagen2.jpg",
+          "ORIENTE/Torolomo/imagen3.jpg",
+          "ORIENTE/Torolomo/imagen4.jpg",
         ],
       },
       {
@@ -626,10 +626,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 301 hacia San Miguel. Al llegar a la terminal migueleña, toma un microbús urbano, un taxi o camina unas pocas cuadras hacia el sector céntrico de la 5ª Calle Poniente.<br>
                         <b>Opción 2:</b> Desde Usulután o municipios cercanos: Dirígete a la terminal de buses de tu localidad y toma un autobús que viaje hacia la ciudad de San Miguel. Una vez en la terminal de buses de San Miguel, aborda el transporte urbano local que te acerque directamente al centro y a la zona de la 5ª Calle Poniente`,
         images: [
-          "CENTRO/El Barrilito/imagen1.jpg",
-          "CENTRO/El Barrilito/imagen2.jpg",
-          "CENTRO/El Barrilito/imagen3.jpg",
-          "CENTRO/El Barrilito/imagen4.jpg",
+          "ORIENTE/El Barrilito/imagen1.jpg",
+          "ORIENTE/El Barrilito/imagen2.jpg",
+          "ORIENTE/El Barrilito/imagen3.jpg",
+          "ORIENTE/El Barrilito/imagen4.jpg",
         ],
       },
       {
@@ -645,10 +645,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 304 con dirección a San Francisco Gotera (Morazán). Al llegar a San Francisco Gotera, trasládate a la terminal local y toma un autobús o microbús que viaje hacia el municipio norteño de Arambala. Desde el casco urbano de Arambala, puedes tomar un transporte local, mototaxi o vehículo 4x4 que suba directamente hacia el sector del mirador y las cabañas.<br>
                         <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús directo hacia San Francisco Gotera. Una vez en Gotera, aborda la conexión en autobús o microbús hacia Arambala y completa el trayecto final con transporte local de la zona montañosa.`,
         images: [
-          "CENTRO/Cabanas y Mirador El Pericon/imagen1.jpg",
-          "CENTRO/Cabanas y Mirador El Pericon/imagen2.jpg",
-          "CENTRO/Cabanas y Mirador El Pericon/imagen3.jpg",
-          "CENTRO/Cabanas y Mirador El Pericon/imagen4.jpg",
+          "ORIENTE/Cabanas y Mirador El Pericon/imagen1.jpg",
+          "ORIENTE/Cabanas y Mirador El Pericon/imagen2.jpg",
+          "ORIENTE/Cabanas y Mirador El Pericon/imagen3.jpg",
+          "ORIENTE/Cabanas y Mirador El Pericon/imagen4.jpg",
         ],
       },
       {
@@ -663,10 +663,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 304 directo hacia San Francisco Gotera. Una vez que llegues a la terminal de Gotera, puedes caminar unas pocas cuadras o tomar un mototaxi o taxi local que te lleve directamente sobre la Calle Joaquín Rodezno.<br>
                         <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús o microbús que viaje hacia San Francisco Gotera. Al arribar a la terminal de destino en Gotera, aborda el transporte urbano local o un mototaxi para llegar al restaurante en cuestión de minutos.`,
         images: [
-          "CENTRO/Restaurante La Villa San Francisco/imagen1.jpg",
-          "CENTRO/Restaurante La Villa San Francisco/imagen2.jpg",
-          "CENTRO/Restaurante La Villa San Francisco/imagen3.jpg",
-          "CENTRO/Restaurante La Villa San Francisco/imagen4.jpg",
+          "ORIENTE/Restaurante La Villa San Francisco/imagen1.jpg",
+          "ORIENTE/Restaurante La Villa San Francisco/imagen2.jpg",
+          "ORIENTE/Restaurante La Villa San Francisco/imagen3.jpg",
+          "ORIENTE/Restaurante La Villa San Francisco/imagen4.jpg",
         ],
       },
       {
@@ -681,10 +681,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús de la Ruta 304 con dirección a San Francisco Gotera. Al llegar a la terminal de Gotera, toma un autobús o microbús de conexión norteña que se dirija hacia el municipio de Jocoaitique. Una vez en el casco urbano, puedes abordar un transporte local o mototaxi para llegar al restaurante.<br>
                         <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús hacia San Francisco Gotera. Al arribar a Gotera, haz el transbordo correspondiente en el transporte que sube hacia los municipios del norte de Morazán, incluyendo Jocoaitique.`,
         images: [
-          "CENTRO/Foresto Restaurante/imagen1.jpg",
-          "CENTRO/Foresto Restaurante/imagen2.jpg",
-          "CENTRO/Foresto Restaurante/imagen3.jpg",
-          "CENTRO/Foresto Restaurante/imagen4.jpg",
+          "ORIENTE/Foresto Restaurante/imagen1.jpg",
+          "ORIENTE/Foresto Restaurante/imagen2.jpg",
+          "ORIENTE/Foresto Restaurante/imagen3.jpg",
+          "ORIENTE/Foresto Restaurante/imagen4.jpg",
         ],
       },
       {
@@ -699,10 +699,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 304 con dirección a la ciudad de La Unión. Al llegar a la terminal de La Unión, puedes tomar un mototaxi, un taxi o caminar unas pocas cuadras hacia el sector del Barrio Concepción donde se encuentra el restaurante.<br>
                         <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús o microbús que viaje hacia la ciudad de La Unión. Una vez en el destino final en La Unión, aborda un transporte local rápido (como un mototaxi) para llegar sin complicaciones al Barrio Concepción.`,
         images: [
-          "CENTRO/Casa Blanca Restaurant La Union/imagen1.jpg",
-          "CENTRO/Casa Blanca Restaurant La Union/imagen2.jpg",
-          "CENTRO/Casa Blanca Restaurant La Union/imagen3.jpg",
-          "CENTRO/Casa Blanca Restaurant La Union/imagen4.jpg",
+          "ORIENTE/Casa Blanca Restaurant La Union/imagen1.jpg",
+          "ORIENTE/Casa Blanca Restaurant La Union/imagen2.jpg",
+          "ORIENTE/Casa Blanca Restaurant La Union/imagen3.jpg",
+          "ORIENTE/Casa Blanca Restaurant La Union/imagen4.jpg",
         ],
       },
       {
@@ -717,10 +717,10 @@ const DATA = {
         busDirections: `<b>Opción 1:</b> Desde San Salvador: Dirígete a la Terminal de Buses de Oriente (en el Boulevard del Ejército) y toma un autobús directo de la Ruta 304 con dirección a la ciudad de La Unión. Al llegar a la terminal de La Unión, toma un mototaxi, un taxi o camina hacia la zona costera o céntrica del puerto para llegar al restaurante.<br>
                         <b>Opción 2:</b> Desde San Miguel: Dirígete a la terminal de buses de San Miguel y toma un autobús o microbús que viaje hacia la ciudad de La Unión. Una vez en la terminal de destino de La Unión, aborda un transporte local rápido (como un mototaxi) que te acerque directamente al establecimiento frente a la bahía.`,
         images: [
-          "CENTRO/Restaurante La Bahia/imagen1.jpg",
-          "CENTRO/Restaurante La Bahia/imagen2.jpg",
-          "CENTRO/Restaurante La Bahia/imagen3.jpg",
-          "CENTRO/Restaurante La Bahia/imagen4.jpg",
+          "ORIENTE/Restaurante La Bahia/imagen1.jpg",
+          "ORIENTE/Restaurante La Bahia/imagen2.jpg",
+          "ORIENTE/Restaurante La Bahia/imagen3.jpg",
+          "ORIENTE/Restaurante La Bahia/imagen4.jpg",
         ],
       },
     ],
